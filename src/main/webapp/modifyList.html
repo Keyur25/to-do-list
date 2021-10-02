@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generic List Application</title>
+  <div style="text-align: center;padding-bottom:12%">
+    <h1><a class="HomePageButton" href="index.html">Generic List Application</a></h1>
+  </div>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ModifyOptionsA">
+  <div class="AddToList" style="text-align:center;width:33%;float:left;">
+    <form method="POST" action="/modifyActionType.html">
+      <input type="hidden" name="typeOfAction" value="add">
+      <input class="ButtonLinks" type="submit" value="Add Items To List">
+    </form>
+  </div>
+  <div class="EditLists" style="text-align:center;width:33%;float:left;">
+    <form method="POST" action="/modifyActionType.html">
+      <input type="hidden" name="typeOfAction" value="edit">
+      <input class="ButtonLinks" type="submit" value="Edit Items In List">
+    </form>
+  </div>
+  <div class="RemoveFromList" style="text-align:center;width:33%;float:left;">
+    <form method="POST" action="/modifyActionType.html">
+      <input type="hidden" name="typeOfAction" value="remove">
+      <input class="ButtonLinks" type="submit" value="Remove Items From List">
+    </form>
+  </div>
+</div>
+<div class="ModifyOptionsB" style="margin-top: 3%">
+  <div class="Rename List" style="text-align:center;width:33%;float:left;">
+    <form method="POST" action="/modifyActionType.html">
+      <input type="hidden" name="typeOfAction" value="rename">
+      <input class="ButtonLinks" type="submit" value="Rename List">
+    </form>
+  </div>
+  <div class="Delete List" style="text-align:center;width:33%;float:left;">
+    <form method="POST" action="/modifyActionType.html">
+      <input type="hidden" name="typeOfAction" value="delete">
+      <input class="ButtonLinks" type="submit" value="Delete List">
+    </form>
+  </div>
+</div>
+</body>
+</html>

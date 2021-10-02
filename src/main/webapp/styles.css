@@ -1,0 +1,75 @@
+head {
+  font-family: "Courier 10 Pitch", "Arial",monospace;
+  color: #5f5a5a;
+}
+
+body {
+  font-family: "Courier 10 Pitch", "Arial",monospace;
+  color: #5f5a5a;
+}
+
+.HomePageButton {
+  font: bold 50px Arial;
+  text-decoration: none;
+  background-color: white;
+  color: #5f5a5a;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+}
+
+.HomePageButton:hover {
+  background-color: #5f5a5a;
+  color: white;
+  border-radius: 5px;
+}
+
+.ButtonLinks{
+  transition-duration: 0.4s;
+  font: bold 25px Arial;
+  text-decoration: none;
+  background-color: white;
+  color: #5f5a5a;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+}
+
+.ButtonLinks:hover {
+  background-color: #5f5a5a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=text], select , input[type=url], input[type=file]{
+  padding: 10px 18px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.SubmitButton{
+  font: 15px Arial;
+  text-decoration: none;
+  background-color: white;
+  color: #5f5a5a;
+  padding: 4px 6px 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #5f5a5a;
+}
+
+.SubmitButton:active {
+  transform: translateY(2px);
+}
+
+table, th, td {
+  border: 1px solid #5f5a5a;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+.ListButton{
+  color: #5f5a5a;
+  border-radius: 4px;
+}

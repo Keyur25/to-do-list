@@ -1,0 +1,15 @@
+uk/ac/ucl/servlets/RemoveFromList.class
+uk/ac/ucl/main/Main.class
+uk/ac/ucl/servlets/ModifyActionType.class
+uk/ac/ucl/servlets/DeleteList.class
+uk/ac/ucl/model/Model.class
+uk/ac/ucl/servlets/InitialiseViewLists.class
+uk/ac/ucl/servlets/ExistingListFrame.class
+uk/ac/ucl/servlets/NewListFrame.class
+uk/ac/ucl/model/ModelFactory.class
+uk/ac/ucl/servlets/EditList.class
+uk/ac/ucl/servlets/AddToList.class
+uk/ac/ucl/model/DataFrame.class
+uk/ac/ucl/servlets/RenameList.class
+uk/ac/ucl/servlets/Search.class
+uk/ac/ucl/model/Item.class
