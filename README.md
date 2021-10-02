@@ -2,7 +2,7 @@
 
 ## About
 
-This is a web application that allows users to add, modify and view lists. Users can add items to a list which include: text, URLs and images. Once a list has been created users can then add more items to that list, remove items from it or modify items in it. They also have the option to rename and delete a specific list. Lists can then be viewed and searched for by clicking the view lists button.
+This is a web application that allows users to add, modify and view lists. Users can add items to a list that include: text, URLs and images. Once a list has been created users can then add more items to that list, remove items from it or modify items in it. They also have the option to rename and delete a specific list. Lists can then be viewed and searched for by clicking the view lists button.
 
 I created this using Java, Tomcat and Maven.
 
